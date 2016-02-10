@@ -5,11 +5,11 @@ package com.demo.ayana.demo;
  */
 
 public class PatientDocReference {
-    int UUID;
+    String UUID;
     String Issuer;
     String ID;
 
-    PatientDocReference(String issuer, String id, int reference) {
+    PatientDocReference(String issuer, String id, String reference) {
         Issuer = issuer;
         ID = id;
         UUID = reference;
